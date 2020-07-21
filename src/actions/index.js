@@ -1,8 +1,7 @@
-export function handleCounter() {
-
+export default function handleCounter() {
   return {
-    type: 'INCREMENT',
-  }
+    type: 'INCREMENT'
+  };
 }
 
 //still working on this page
