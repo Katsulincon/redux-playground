@@ -3,6 +3,9 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import handleCounter from '../actions';
 
+const increment = () => ({ type: 'INCREMENT' });
+
+
 class Counter extends Component {
   // constructor() {
   //   super();
@@ -37,7 +40,7 @@ class Counter extends Component {
 
 function mapDispatchToProps(dispatch) {
   return bindActionCreators(
-    { handleCounter: handleCounter },
+    { increment },
     dispatch
   );
 }
