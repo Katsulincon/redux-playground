@@ -1,7 +1,4 @@
-export default function(state, action) {
-  if (state === undefined) {
-    return 0;
-  }
+export default function(state = 0, action) {
 
   //handle action
   switch (action.type) {
