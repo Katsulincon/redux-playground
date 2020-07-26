@@ -1,4 +1,4 @@
-export default function handleCounter() {
+export default function upCount() {
   return {
     type: 'INCREMENT'
   };
